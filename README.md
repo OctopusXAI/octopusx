@@ -1,7 +1,3 @@
-# octopusx
-One OpenAI-compatible API for 200+ AI models — GPT, Claude, Gemini &amp; more
-
-markdown
 # OctopusX 🐙
 One OpenAI-compatible API for 200+ AI models — GPT, Claude, Gemini & more
 
@@ -16,8 +12,6 @@ pip install openai
 # Node.js
 npm install openai
 2. Python Usage Example
-python
-运行
 from openai import OpenAI
 
 client = OpenAI(
@@ -31,8 +25,6 @@ response = client.chat.completions.create(
 )
 print(response.choices[0].message.content)
 3. Node.js Usage Example
-javascript
-运行
 import OpenAI from "openai";
 
 const client = new OpenAI({
